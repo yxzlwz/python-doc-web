@@ -1,0 +1,36 @@
+{
+  "name": "python-doc",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "一个新手友好的 Python 3 入门文档",
+  "packageManager": "pnpm@10.12.4",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "esbuild"
+    ]
+  },
+  "author": "yxzlwz <yxzlwz@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "^20.6.0 || >=22.0.0"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "dev-clean": "vuepress dev docs --clean-cache --clean-temp",
+    "build": "vuepress build docs --clean-cache --clean-temp",
+    "preview": "http-server docs/.vuepress/dist",
+    "vp-update": "pnpm dlx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.24",
+    "http-server": "^14.1.1",
+    "typescript": "^5.9.2",
+    "vue": "^3.5.21",
+    "vuepress": "2.0.0-rc.24",
+    "vuepress-theme-plume": "1.0.0-rc.164"
+  },
+  "dependencies": {
+    "pyodide": "^0.28.3"
+  }
+}
