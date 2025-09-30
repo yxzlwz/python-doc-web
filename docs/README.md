@@ -5,8 +5,7 @@ config:
   - type: hero
     hero:
       name: Python 入门文档
-      text: 一个简约易用的，功能丰富的 vuepress 文档&博客 主题
-      image: /python-logo-only.svg
+      text: 新手友好的 Python 3 入门文档
       actions:
         - theme: brand
           text: 开始阅读 →
