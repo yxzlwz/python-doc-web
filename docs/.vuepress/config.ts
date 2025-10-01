@@ -25,7 +25,7 @@ export default defineUserConfig({
 
         /* 页内信息 */
         editLink: true,
-        // contributors: true,
+        contributors: false,
         // changelog: false,
 
         blog: false, // 禁用博客
