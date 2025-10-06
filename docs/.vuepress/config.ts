@@ -24,21 +24,16 @@ export default defineUserConfig({
         docsDir: "docs",
         docsBranch: "main",
 
-        /* 页内信息 */
         editLink: true,
         contributors: false,
-        // changelog: false,
+        changelog: false,
 
-        blog: false, // 禁用博客
+        blog: false,
 
         /* 博客文章页面链接前缀 */
         // article: '/article/',
         cache: "filesystem",
 
-        /**
-         * 为 markdown 文件自动添加 frontmatter 配置
-         * @see https://theme-plume.vuejs.press/config/basic/#autofrontmatter
-         */
         autoFrontmatter: {
             permalink: true, // 是否生成永久链接
             createTime: false, // 是否生成创建时间
@@ -63,10 +58,7 @@ export default defineUserConfig({
             annotation: true, // 启用 annotation 语法  [+label]: content
             caniuse: true, // 启用 caniuse 语法  @[caniuse](feature_name)
             plot: true, // 启用隐秘文本语法 !!xxxx!!
-            bilibili: true, // 启用嵌入 bilibili视频 语法 @[bilibili](bid)
-            youtube: true, // 启用嵌入 youtube视频 语法 @[youtube](video_id)
             icon: { provider: "iconify" }, // 启用内置图标语法  ::icon-name::
-            table: true, // 启用表格增强容器语法 ::: table
             repl: {
                 // 启用 代码演示容器
                 python: true, // ::: python-repl
