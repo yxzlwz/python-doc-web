@@ -83,7 +83,7 @@ export default defineUserConfig({
             repoId: "R_kgDOP1HjCQ",
             category: "General",
             categoryId: "DIC_kwDOP1HjCc4CvyWj",
-            mapping: "title",
+            mapping: "pathname",
             reactionsEnabled: true,
             inputPosition: "top",
         },
