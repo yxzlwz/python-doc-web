@@ -19,6 +19,7 @@ export default defineNavbarConfig([
             { text: "yellowbutton", link: "https://github.com/yellowbutton" },
             { text: "Faceybr0", link: "https://github.com/faceybro" },
             { text: "Richard Yang", link: "https://github.com/yang-zhongtian" },
+            { text: "Cheng", link: "https://github.com/jackywwwwww" },
         ],
     },
 ]);
