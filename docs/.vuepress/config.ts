@@ -80,6 +80,7 @@ export default defineUserConfig({
                 mark: true, // 启用图片标记
                 size: true, // 启用图片大小
             },
+            mark: 'lazy',
             imageSize: "local", // 启用 自动填充 图片宽高属性，避免页面抖动
         },
 
