@@ -28,10 +28,6 @@ export default defineUserConfig({
         contributors: false,
         changelog: false,
 
-        blog: false,
-
-        /* 博客文章页面链接前缀 */
-        // article: '/article/',
         cache: "filesystem",
 
         autoFrontmatter: {
@@ -48,6 +44,17 @@ export default defineUserConfig({
         },
 
         readingTime: false,
+        collections: [
+            {
+                type: "doc",
+                dir: "",
+                title: "Python 文档",
+                sidebar: "auto",
+                autoFrontmatter: {
+                    permalink: true,
+                },
+            },
+        ],
 
         /**
          * markdown

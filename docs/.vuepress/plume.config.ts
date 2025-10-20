@@ -1,12 +1,10 @@
 import { defineThemeConfig } from "vuepress-theme-plume";
 import navbar from "./navbar";
-import notes from "./notes";
 
 export default defineThemeConfig({
     appearance: true,
 
-
-    copyright: 'CC-BY-NC-SA-4.0',
+    copyright: "CC-BY-NC-SA-4.0",
 
     prevPage: true, // 是否启用上一页链接
     nextPage: true, // 是否启用下一页链接
@@ -18,5 +16,4 @@ export default defineThemeConfig({
     // },
 
     navbar,
-    notes,
 });
