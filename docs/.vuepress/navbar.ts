@@ -8,7 +8,7 @@ import { defineNavbarConfig } from "vuepress-theme-plume";
 
 export default defineNavbarConfig([
     { text: "首页", link: "/" },
-    { text: "GitHub", link: "https://github.com/yxzlwz/python-doc-web" },
+    { text: "更多教程", link: "https://docs.yxzl.dev/" },
     { text: "异想之旅のBlog", link: "https://blog.yxzl.dev/" },
     {
         text: "贡献者",

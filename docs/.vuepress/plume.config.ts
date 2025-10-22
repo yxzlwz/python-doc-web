@@ -3,6 +3,10 @@ import navbar from "./navbar";
 
 export default defineThemeConfig({
     appearance: true,
+    social: [
+        { icon: "github", link: "https://github.com/yxzlwz/python-doc-web" },
+    ],
+    navbarSocialInclude: ["github"],
 
     copyright: "CC-BY-NC-SA-4.0",
 

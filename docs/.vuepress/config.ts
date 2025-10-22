@@ -40,7 +40,7 @@ export default defineUserConfig({
             provider: "algolia",
             appId: "X09UO4RR4M",
             apiKey: "8fcd255a8eff7072fc440d840327b25d",
-            indexName: "python",
+            indices: ["python"],
         },
 
         readingTime: false,
