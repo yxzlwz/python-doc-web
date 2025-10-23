@@ -65,6 +65,7 @@ export default defineUserConfig({
             annotation: true, // 启用 annotation 语法  [+label]: content
             caniuse: true, // 启用 caniuse 语法  @[caniuse](feature_name)
             plot: true, // 启用隐秘文本语法 !!xxxx!!
+            collapse:true,
             icon: { provider: "iconify" }, // 启用内置图标语法  ::icon-name::
             repl: {
                 // 启用 代码演示容器
