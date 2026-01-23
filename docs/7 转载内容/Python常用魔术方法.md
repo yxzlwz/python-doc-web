@@ -10,9 +10,11 @@ copyright:
 
 # Python常用魔术方法
 
+本文转载自：[Python常用魔术方法 - 知乎](https://zhuanlan.zhihu.com/p/329962624)，作者：程序员吾非同。转载时对内容做了部分调整。
+
 ## 什么是魔术方法？
 
-在Python中，所有以双下划线 `__` 包起来的方法，统称为**Magic Method（魔术方法）**，它是一种的特殊方法，普通方法需要调用，而魔术方法不需要调用就可以自动执行。
+在Python中，所有以双下划线 `__` 包起来的方法，统称为**Magic Method（魔术方法）**，它是一种的特殊方法，普通方法需要像函数一样手动调用，而魔术方法可以通过某些方式“自动”被调用。
 
 魔术方法在类或对象的某些事件出发后会自动执行，让类具有神奇的“魔力”。如果希望根据自己的程序定制自己特殊功能的类，那么就需要对这些方法进行重写。
 
@@ -20,7 +22,6 @@ Python中常用的运算符、for循环、以及类操作等都是运行在魔�
 
 ## 魔术方法 `__init__`、`__new__`、`__del__` 的应用
 
-::: python-repl title="运行代码" editable
 ```python
 class People(object):
     # 创建对象
@@ -43,7 +44,6 @@ class People(object):
 if __name__ == '__main__':
     p1 = People('xiaoming', 16)
 ```
-:::
 
 输出：
 
@@ -59,7 +59,8 @@ if __name__ == '__main__':
 
 即第0项是0，第1项是第一个1。从第三项开始，每一项都等于前两项之和。
 
-```python::: python-repl title="运行代码" editable
+::: python-repl title="运行代码" editable
+```python
 class Fib(object):
 
     def __init__(self):
