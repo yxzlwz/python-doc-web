@@ -16,7 +16,7 @@ export default defineNavbarConfig([
             { text: "程家麒", link: "https://modenc.top/" },
             { text: "Honahec", link: "https://honahec.cc/" },
             { text: "Iron_Grey_", link: "https://irongrey.top/" },
-            { text: "完整名单", link: "/taqbzfxf/" },
+            { text: "完整名单", link: "https://docs.yxzl.dev/python/taqbzfxf/" },
         ],
     },
 ]);

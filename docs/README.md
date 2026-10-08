@@ -5,11 +5,11 @@ config:
   - type: hero
     hero:
       name: Python 入门文档
-      text: 新手友好的 Python 3 入门文档
+      text: 本文档已迁移至 docs.yxzl.dev
       actions:
         - theme: brand
-          text: 开始阅读 →
-          link: /0 前言/0.1 前言.html
+          text: 点击跳转 →
+          link: https://docs.yxzl.dev/python/
 title: 首页
 permalink: /
 ---
